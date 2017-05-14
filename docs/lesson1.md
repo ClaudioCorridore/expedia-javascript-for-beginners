@@ -1,5 +1,7 @@
 ---
 title: Lesson 1
+layout: lesson
+description: Variables, types and functions…
 ---
 
-#Lesson 1
+Lorem ipsum :bowtie:

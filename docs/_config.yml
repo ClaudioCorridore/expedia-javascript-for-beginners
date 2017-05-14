@@ -1,2 +1,6 @@
 theme: jekyll-theme-cayman
 title: Javascript for Beginners
+sass:
+    sass_dir: ./_scss
+gems:
+  - jemoji

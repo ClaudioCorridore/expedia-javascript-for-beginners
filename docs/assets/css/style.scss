@@ -3,6 +3,30 @@
 
 @import "{{ site.theme }}";
 
-p > img {
+.logo-wrapper {
     text-align: center;
+}
+
+.back {
+    font-size: .6rem;
+}
+
+.lesson .page-header {
+    @media screen and (min-width: 64em) {
+        & {
+            padding: 3rem 6rem;
+        }
+    }
+
+    @media screen and (max-width: 64em) and (min-width: 42em) {
+        & {
+            padding: 2rem 4rem;
+        }
+    }
+
+    @media screen and (max-width: 42em) {
+        & {
+            padding: 2rem 1rem;
+        }
+    }
 }
