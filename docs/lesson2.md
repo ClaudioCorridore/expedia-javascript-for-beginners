@@ -118,3 +118,12 @@ animalsOrderedByHeight[3].name // 'Snail'
 Of course we have a lot of powerful tools to work with _Objects_ and _Arrays_ in _JavaScript_, but we need first to introduce the concept of _Function_.
 
 ## Function
+
+Now let's jump to the exercise:
+
+[Go to the exercise page](https://jsbin.com/zurijah/edit?js,output)
+
+---
+### Further readings
+* [Object and Array definition](https://docs.microsoft.com/en-us/scripting/javascript/objects-and-arrays-javascript)
+* [Function definition](https://developer.mozilla.org/en-US/docs/Glossary/Function)
