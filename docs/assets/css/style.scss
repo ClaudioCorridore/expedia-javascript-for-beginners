@@ -1,14 +1,27 @@
 ---
 ---
 
+$linkColor: #1e6bb8;
+
 @import "{{ site.theme }}";
 
 .logo-wrapper {
     text-align: center;
 }
 
-.back {
-    font-size: .6rem;
+.navigation {
+    text-align: center;
+
+    .btn {
+        color: $linkColor;
+        border-color: $linkColor;
+
+        &:hover {
+            color: #fff;
+            background-color: $linkColor;
+            border-color: #fff;
+        }
+    }
 }
 
 .lesson .page-header {

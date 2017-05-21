@@ -2,6 +2,7 @@
 title: Preface
 layout: lesson
 description: A brief history of JavaScript
+next: lesson1.html
 ---
 
 The **web** in the early 90's was very different, simple pages rich of content but poor of interaction, something like [this](assets/netscape1996_big.png) or like [this](assets/exp1997_big.png).

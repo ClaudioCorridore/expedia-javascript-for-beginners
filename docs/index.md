@@ -2,4 +2,5 @@ Welcome to the 1st Edition of "Javascript for Beginners" course. This course is 
 
 ## Table of contents
 * [Preface](preface.md)
-* [Lesson 1](lesson1.md)
+* [Lesson 1 - Types, variables and operators](lesson1.md)
+* [Lesson 2 - Object, Array and Function](lesson2.md)

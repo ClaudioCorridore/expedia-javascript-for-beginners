@@ -1,7 +1,9 @@
 ---
-title: Lesson 1
+title: Types, variables and operators
 layout: lesson
-description: Types, variables and operators
+description: Lesson 1
+prev: preface.html
+next: lesson2.html
 ---
 
 What is a **program**?
@@ -37,7 +39,8 @@ A string is just a piece of text, can be composed by one or more letters and it 
 
 You can also have spaces in strings, or any kind of special characters:
 
-`'hello world! `:wink:`'`
+`'hello world! ` :wink:`'`
+
 Of course you can also have numbers in strings, but pay attention, that is still a string and not a number:
 
 ```js
@@ -91,18 +94,18 @@ These was just a quick overview of all the types available in Javascript, but do
 Most of the time we will need to store our data in some place in order to be used later, to accomplish this in JavaScript we have the `var` statement:
 
 ```js
-    var myName = 'Guybrush'
+var myName = 'Guybrush'
 ```
 
 Now the string `'Guybrush'` is stored in the 'myName' variable and I can use later to do any kind of operation.
 Of course we can store any kind of data in variables:
 
 ```js
-    var myAge = 33
-    var mySkills = {
-        mightyPirate: true
-    }
-    var myFavouriteColour = blue
+var myAge = 33
+var mySkills = {
+    mightyPirate: true
+}
+var myFavouriteColour = blue
 ```
 
 To declare a variable we have just few rules:
@@ -140,8 +143,8 @@ This operator will compare two values and it will return a _boolean_ (`true` or 
 Let's start by declaring two variables:
 
 ```js
-    const a = 1
-    const b = 2
+const a = 1
+const b = 2
 ```
 
 ### Equal (==)
@@ -188,13 +191,13 @@ An arithmetic operator takes numerical values (either literals or variables) as 
 The standard arithmetic operators are addition (+), subtraction (-), multiplication (*), and division (/).
 
 ```js
-    const a = 1
-    const b = 2
+const a = 1
+const b = 2
 
-    a + b // 3
-    a - b // -1
-    a * b // 2
-    a / b // 0.5
+a + b // 3
+a - b // -1
+a * b // 2
+a / b // 0.5
 ```
 ---
 
