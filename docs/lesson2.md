@@ -64,6 +64,18 @@ _Array_ to the rescue.
 
 ```js
 const animalsOrderedByHeight = [
+    'Elephant',
+    'Penguin',
+    'Cat'
+]
+```
+
+All the _Array items_ must be wrapped in _square brackets_ and separated by _comma_.
+
+An _Array item_ can contain any kind of value, like `string`, `number`, `boolean`, `object` ore even another `array` (multi dimensional _Array_).
+
+```js
+const animalsOrderedByHeight = [
     {
         name: 'Elephant',
         habitat: 'Savannah',
@@ -85,11 +97,7 @@ const animalsOrderedByHeight = [
 ]
 ```
 
-All the _Array items_ must be wrapped in _square brackets_ and separated by _comma_.
-
-An _Array item_ can contain any kind of value, like `string`, `number`, `boolean`, `object` ore even another `array` (multi dimensional _Array_).
-
-Each _item_ in the _Array_ have an **index** starting from **0**.
+Each _item_ of the _Array_ has an **index** position starting from **0**.
 
 To **get** a value out of an _Array_ you need to know its **index**.
 
@@ -109,7 +117,7 @@ animalsOrderedByHeight[3] = {
 }
 ```
 
-Now combining what we learnt previously about retrieving an _Object_ property
+Now combining what we learnt previously about retrieving an _Object_ property:
 
 ```js
 animalsOrderedByHeight[3].name // 'Snail'
@@ -119,7 +127,41 @@ Of course we have a lot of powerful tools to work with _Objects_ and _Arrays_ in
 
 ## Function
 
-Now let's jump to the exercise:
+> JavaScript functions perform actions; they can also return values. Sometimes these are the results of calculations or comparisons. [[Microsoft Docs](https://docs.microsoft.com/en-us/scripting/javascript/functions-javascript)]
+
+A _Function_ is a fundamental block of programming. It's a **set of instructions** that perform a precise action.
+Usually a _function_ takes one or more **inputs** values and, after processing them, it **returns** a value.
+
+Imagine a vending machine, you insert a coin (the **input**), the machine makes some operations and it releases you back food (the output or the **return**).
+The vendor machine is your _Function_, and all the gears required to release the food are your _operations_.
+
+![Vending machine](assets/vending-machine.gif)
+
+Like any other _type_ in _JavaScript_, you can store a _Function_ inside a variable. 
+
+To write a function you just need to start your statement writing the word **function**, then in parenthesis you need to declare the required **parameters** (the inputs) and then wrap the operations in **curly brackets**.
+
+Inside the **curly brackets** you are in the _Function scope_, a special space that is not accessible from the outside world (called _global scope_), but we are going to see the _scope_ concept more in depth in a future lesson.
+
+In the _function scope_ you can make all the operation required to achieve a result then, you just need to *return* it.
+
+![Function components](assets/function.png)
+
+Now that you have stored your operations inside a _function_, you can call them whenever you need by just executing the _function_.
+
+To execute the function you need to use the name of the _variable_ you stored it in, and **without adding any white space**, you pass a comma separated list of _parameters_ wrapped in parenthesis.
+
+```js
+const multiply = function(a, b) {
+    const result = a * b
+
+    return result
+}
+
+multiply(2, 3) // 6
+```
+
+This is a powerful concept and to fully understand it some practice is required, so let's jump to the exercises.
 
 [Go to the exercise page](https://jsbin.com/zurijah/edit?js,output)
 
