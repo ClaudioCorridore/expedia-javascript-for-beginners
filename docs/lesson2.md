@@ -3,6 +3,7 @@ title: Object, Array and Function
 layout: lesson
 description: Lesson 2
 prev: lesson1.html
+next: lesson3.html
 ---
 
 In the previous lesson we have seen the main _JavaScript_ types. In this lesson we are going to analyse in-depth the _Object_ type and its subtypes.
