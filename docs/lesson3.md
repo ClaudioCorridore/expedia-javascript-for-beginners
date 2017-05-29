@@ -8,7 +8,7 @@ prev: lesson2.html
 We are almost ready to start writing our first web app, but first, we will need some more tool.
 
 ## If…else
-As we already say every software starts from some kind of input. But what if we want to trigger different action conditionally to the input value?
+As we have already said, every software starts from some kind of input. But what if we want to trigger a different action conditionally to the input value?
 
 For such scenario we can use the **if…else** statement.
 
@@ -30,25 +30,40 @@ const hotelB = {
 }
 ```
 
-and that we want to write a function that, given a _budget_, it returns one hotel that is below that amount :
+and to want to write a function that, given a _budget_, it returns one hotel cheaper than the given amount :
 
 ```js
 const getHotelsInUserBudget = function(budget) {
     let result = null;
 
-    if (hotelA.price < budget) {
-        result = hotelA
+    if (hotelB.price <= budget) {
+        result = hotelB
     }
 
-    if (hotelB.price < budget) {
-        result = hotelB
+    if (hotelA.price <= budget) {
+        result = hotelA
     }
 
     return result
 }
 ```
 
+Let's try this function in the [Demo page](https://jsbin.com/bomocot)
+
+
 >**Quiz:** What would be returned by the function if the passed budget is _1_ ?
+
+If we have multiple conditions we can use multiple **else if** statements:
+
+```js
+if(condition) {
+    …
+} else if (another condition) {
+    …
+} else {
+    …
+}
+```
 
 
 ## For…in
