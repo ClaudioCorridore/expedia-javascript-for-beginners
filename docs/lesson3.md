@@ -16,6 +16,8 @@ For such scenario we can use the **if…else** statement.
 
 ![If…else](assets/ifelse.png)
 
+The _condition_ should contain any expression that could be evaluated as _true_ or _false_.
+
 Let's imagine to have two _variables_ each containing a different hotel _object_ :
 
 ```js
@@ -48,7 +50,7 @@ const getHotelsInUserBudget = function(budget) {
 }
 ```
 
-Let's try this function in the [Demo page](https://jsbin.com/bomocot)
+Let's try this function in the [Demo page](https://jsbin.com/bomocot/edit?js,output).
 
 >**Quiz:** What would be returned by the function if the passed budget is _1_ ?
 
@@ -62,6 +64,32 @@ if(condition) {
 } else {
     …
 }
+```
+
+We can even combine multiple conditions using _logical operators_:
+
+We have already seen the _NOT_ operator, it returns false if its single operand can be converted to true; otherwise, returns true.
+
+```js
+!true === false
+!false === true
+```
+
+If we want two or more conditions to be true at the same time we can use the _AND_ operator:
+
+```js
+true && true === true
+true && false === false
+false && true = false
+```
+
+And finally if we want to know if at least one of the condition is _true_ we can use the _OR_ operator:
+
+```js
+true || false === true
+false || true === true
+true || true === true
+false || false === false
 ```
 
 ## The for loop
@@ -119,10 +147,32 @@ This function will iterate through the hotels _array_ and it will return the che
 
 > **Tip:** All the _arrays_ have the property **length** that contains the number of items in it.
 
-The current version of the function is not perfect, and we can improve it in order to be more useful and generic, let's see how in the [Demo page](https://jsbin.com/xavopaw).
+The current version of the function is not perfect, and we can improve it in order to be more useful and generic, let's see how to in the [Demo page](https://jsbin.com/xavopaw/edit?js,output).
 
-[Go to the exercise page](https://jsbin.com/zurijah/edit?js,output)
+### For…of
+
+In modern browsers you can also use another statement to iterate over an _Array_, the **for…of** statement.
+Using the **for…of** statement the previous function would be:
+
+```js
+const getHotelsInUserBudget = function(budget) {
+    var result = null;
+
+    for (const hotel of hotels) {
+        if (hotels[index].price <= budget) {
+            result = hotels[index]
+        }
+    }
+
+    return result
+}
+```
+
+[Go to the exercise page](https://jsbin.com/hunocej/edit?js,output)
 
 ---
 ### Further readings
 
+* [Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
+* [Truthy values](https://developer.mozilla.org/en/docs/Glossary/Truthy)
+* [Falsy values](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
