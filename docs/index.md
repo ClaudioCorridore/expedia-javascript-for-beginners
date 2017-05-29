@@ -4,4 +4,4 @@ Welcome to the 1st Edition of "Javascript for Beginners" course. This course is 
 * [Preface](preface.md)
 * [Lesson 1 - Types, variables and operators](lesson1.md)
 * [Lesson 2 - Object, Array and Function](lesson2.md)
-* [Lesson 3 - If…else, for and while ](lesson3.md)
+* [Lesson 3 - If…else and the for loop ](lesson3.md)
