@@ -19,7 +19,7 @@ This _object_ contains a set of properties and functions helpful to make the pag
 
 > Tips: To open the _Developers Tools_ right click anywhere on the page and select _inspect_.
 
-[Go to the exercise page](https://jsbin.com/hunocej/edit?js,output)
+[Go to the exercise page](https://jsbin.com/mofayaz/2/edit?html,js,output)
 
 Let's try a couple of useful functions that we can find in this object.
 
