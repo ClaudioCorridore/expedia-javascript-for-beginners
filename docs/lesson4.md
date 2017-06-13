@@ -19,8 +19,6 @@ This _object_ contains a set of properties and functions helpful to make the pag
 
 > Tips: To open the _Developers Tools_ right click anywhere on the page and select _inspect_.
 
-[Go to the exercise page](https://jsbin.com/mofayaz/2/edit?html,js,output)
-
 Let's try a couple of useful functions that we can find in this object.
 
 > Task: Try to run this function in the _console_: `window.alert('Hello world!')`
@@ -74,7 +72,7 @@ we can now for example, change the colour of the text:
 theTitleElement.style.color = 'red';
 ```
 
-[Go to the exercise page](https://jsbin.com/mofayaz/2/edit?html,js,output)
+[Go to the exercise page](https://jsbin.com/mofayaz/3/edit?html,js,output)
 
 > Task: by only inspecting the _document_ object, can you spot any other functions to **get** an element in the page?
 
