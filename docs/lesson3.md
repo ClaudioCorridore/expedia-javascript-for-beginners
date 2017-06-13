@@ -3,6 +3,7 @@ title: If…else and the for loop
 layout: lesson
 description: Lesson 3
 prev: lesson2.html
+next: lesson4.html
 ---
 
 We are almost ready to start writing our first web app, but first, we will need some more tool.
