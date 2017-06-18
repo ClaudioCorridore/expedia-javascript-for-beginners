@@ -3,6 +3,7 @@ title: Working with the page
 layout: lesson
 description: Lesson 4
 prev: lesson3.html
+next: lesson5.html
 ---
 
 When you are working with JavaScript in the browser, you have access to a wide set of functions to interact with the page.
