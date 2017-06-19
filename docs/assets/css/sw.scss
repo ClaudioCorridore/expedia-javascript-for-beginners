@@ -36,7 +36,8 @@ header {
 }
 
 h2,
-.search-widget {
+.search-widget,
+.hotels-list {
     width: 90%;
 }
 
@@ -63,6 +64,8 @@ h2 {
 
     input {
         border: none;
+        height: 2em;
+        width: 18em;
     }
 
     fieldset {
@@ -94,7 +97,7 @@ h2 {
         top: 50%;
         transition: color 0.33s ease-out, background-color 0.33s ease-out;
         right: 16px;
-
+    
         &:hover,
         &:focus {
             background-color: #fff;
@@ -104,5 +107,63 @@ h2 {
         &:hover {
             cursor: pointer;
         }
+    }
+}
+
+.hotels-list {
+    margin: 20px auto 0;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin-bottom: 12px;
+        }
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.hotel {
+    border: solid 1px #dedede;
+    min-height: 150px;
+    position: relative;
+}
+
+.hotel-image,
+.hotel-data {
+    height: 100%;
+    position: absolute;
+}
+
+.hotel-image {
+    border-right: solid 1px #dedede;
+    width: 20%;
+
+    i {
+        color: #fff;
+        font-size: 4em;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.hotel-data {
+    left: 20%;
+    padding-left: 2em;
+    width: 80%;
+}
+
+$elements: 8;
+
+@for $i from 0 to $elements {
+    li:nth-child(#{$i +1}) .hotel-image {
+        background: rgb(140 - $i*10, 180 - $i*10, 180 - $i*10);
     }
 }
