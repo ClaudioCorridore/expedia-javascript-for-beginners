@@ -7,5 +7,6 @@ Welcome to the 1st Edition of "Javascript for Beginners" course. This course is 
 * [Lesson 3 - If…else and the for loop ](lesson3.md)
 * [Lesson 4 - Working with the page](lesson4.md)
 * [Lesson 5 - Building a search widget (Part 1)](lesson5.md)
+* [Lesson 6 - Building a search widget (Part 2)](lesson6.md)
 * Appendix
     * [A) The Web in a nutshell](appendixA.md)
