@@ -3,6 +3,7 @@ title: Building a search widget (Part 2)
 layout: lesson
 description: Lesson 6
 prev: lesson5.html
+next: lesson7.html
 ---
 
 In this lesson we are going to finalize the Search Widget, but first let's make some simple exercise to recap what we learnt so far.
