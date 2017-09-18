@@ -6,12 +6,12 @@ description: What happens when I visit a web page?
 
 When you type a _web address_ in the browser and press _enter_ a lot of things have to happen before you can see the web page.
 
-Let's go step by step thought this process.
+Let's go step by step through this process.
 
 ## HTTP(s)
 
 The first step is to request the desired _web page_.
-The browser will communicate the _web address_ to whe _web server_ through **HTTP** (Hypertext Transfer Protocol).
+The browser will communicate the _web address_ to the _web server_ through **HTTP** (Hypertext Transfer Protocol).
 
 ![https](assets/https.png)
 

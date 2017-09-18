@@ -9,15 +9,27 @@ next: lesson2.html
 What is a **program**?
 > A program is a series of instructions that can be put into a computer in order to make it perform an operation
 
-Everything start from an input, someone or something gives to you some kind of data and you need to execute one or more operations to achieve your goal. For example in this simple scenario:
+Usually every program starts with one or more inputs and you need to execute some operation on top of them to achieve your goal.
 
-```js
-2 + 3 = 5
+For example, let's imagine to have a web form like this:
+
+<img src="assets/sum.png" alt="Sum form" style="width: 100%; max-width: 400px; margin: 0 auto; display: block;">
+
+Your _inputs_ are the two addends, and all you want to do with them is just to calc their sum.
+
+Your program should do something like this:
+
+```
+READ the input form the page
+SUM the inputs
+WRITE the sum result in the page
 ```
 
-Given two inputs (2 and 3) we want to calculate the sum of them.
+These lines above are written in  _pseudo code_, more similar to plain english than to a real programming language.
 
-So the first question is, what kind of data can I use in JavaScript?
+To be able to run this program in a web browser we need to translate it in _JavaScript_, but in order to do so we will need to introduce some fundamental concept first.
+
+The first question we will answer is: "What kind of data can I use in JavaScript?"
 
 ## Types
 
@@ -49,7 +61,7 @@ Of course you can also have numbers in strings, but pay attention, that is still
 
 ### Number
 
-A number is… a number :laughing:, can be an _Integer_ or a _Floating point_ number and you don't need to wrap with quotes:
+A number is… a number :laughing:, can be an _Integer_ or a _Floating point_ number and it should not be wrapped within quotes:
 
 ```js
 45
@@ -88,10 +100,10 @@ The value `undefined` represents the absence of any object value:
 undefined
 ```
 
-These was just a quick overview of all the types available in Javascript, but don't worry we are going to come on this subject soon.
+These was just a quick overview of all the types available in Javascript, but don't worry, we will go back to this subject soon.
 
 ## Variable
-Most of the time we will need to store our data in some place in order to be used later, to accomplish this in JavaScript we have the `var` statement:
+Most of the time we will need to store our data somewhere in order to use them later, to accomplish this in JavaScript we use the `var` statement:
 
 ```js
 var myName = 'Guybrush'
@@ -108,7 +120,7 @@ var mySkills = {
 var myFavouriteColour = blue
 ```
 
-To declare a variable we have just few rules:
+To declare a variable we just have to follow few rules:
 
 * Start with `var`
 * The name of the variable **must not** contain spaces
@@ -201,7 +213,7 @@ a / b // 0.5
 ```
 ---
 
-These may look very simple topics, but will in the next lessons how from this basic concepts can be transformed in complex programs!
+These may look very simple topics, but we will see in the next lessons how these basic concepts can be transformed in complex programs!
 
 Now let's jump to the exercise:
 
