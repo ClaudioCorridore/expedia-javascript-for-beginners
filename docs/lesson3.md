@@ -19,7 +19,7 @@ For such scenario we can use the **if…else** statement.
 
 The _condition_ should contain any expression that could be evaluated as _true_ or _false_.
 
-Let's imagine to have two _variables_ each containing a different hotel _object_ :
+Let's imagine to have two _variables_, each of them containing a different hotel _object_:
 
 ```js
 const hotelA = {

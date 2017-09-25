@@ -15,10 +15,10 @@ In the previous lesson we have seen the main _JavaScript_ types. In this lesson 
 In other words an _Object_ is a data container that usually is a representation of a real-world thing, like an animal.
 
 ```js
-const penguin = {
+const animal = {
     name: 'Penguin',
     habitat: 'South Pole',
-    height: 110
+    height: 110,
     pic: '🐧'
 }
 ```
@@ -86,7 +86,7 @@ const animalsOrderedByHeight = [
     {
         name: 'Penguin',
         habitat: 'South Pole',
-        height: 110
+        height: 110,
         pic: '🐧'
     },
     {
@@ -133,7 +133,7 @@ Of course we have a lot of powerful tools to work with _Objects_ and _Arrays_ in
 A _Function_ is a fundamental block of programming. It's a **set of instructions** that performs a precise action.
 Usually a _function_ takes one or more **inputs** values and, after processing them, it **returns** only one value.
 
-Imagine a vending machine, you insert a coin (the **input**), the machine makes some operations and it releases you back food (the output or the **return**).
+Imagine a vending machine, you insert a coin (the **input**), the machine makes some operations and it releases back food (the output or the **return**).
 The vending machine is your _Function_, and all the gears required to release food are your _operations_.
 
 ![Vending machine](assets/vending-machine.gif)
@@ -148,7 +148,7 @@ Inside the _function scope_ you can make all the operations required to achieve 
 
 ![Function components](assets/function.png)
 
-Now that you have stored your operations inside a _function_, you can call them whenever you need just by executing the _function_.
+Now that you stored your list of operations inside a _function_, you can recall them whenever you need by just executing the _function_.
 
 To execute the function you need to use the name of the _variable_ where you stored it. Now, **without adding any white space**, you need to pass a comma separated list of _parameters_, wrapped in parenthesis, to the function.
 
