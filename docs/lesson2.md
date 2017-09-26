@@ -165,6 +165,8 @@ multiply(2, 3) // 6
 This is a powerful concept and to fully understand it some practice is required, so let's jump to the exercises.
 
 [Go to the exercise page](https://jsbin.com/zurijah/edit?js,output)
+[Go to the function demo page](https://jsbin.com/zevekak)
+[Go to the function demo exercise](https://jsbin.com/zevekak/edit?js)
 
 ---
 ### Further readings
