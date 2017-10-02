@@ -6,10 +6,10 @@ prev: lesson2.html
 next: lesson4.html
 ---
 
-We are almost ready to start writing our first web app, but first, we will need some more tool.
+It's almost time to start writing a web app, but first, we will ned to introduce two very important _statements_: **if...else** and the **for** loop.
 
 ## If…else
-As we have already said, every software starts from some kind of input. But what if we want to trigger a different action conditionally to the input value?
+As we have already saw in the first lesson, every program starts from an input. But what if we want to trigger a different action conditionally to the input value?
 
 For such scenario we can use the **if…else** statement.
 
