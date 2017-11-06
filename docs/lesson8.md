@@ -26,6 +26,6 @@ These were my final tips for you, now you should have some of the pieces require
 
 Please download the lesson material from the below links (you should already have it).
 
-[Exercise](https://github.com/ClaudioCorridore/expedia-javascript-for-beginners/raw/master/exercises/sw1/sw1.zip)
+[Exercise](https://github.com/ClaudioCorridore/expedia-javascript-for-beginners/raw/master/exercises/sw3/sw3.zip)
 
-[Solution](https://github.com/ClaudioCorridore/expedia-javascript-for-beginners/raw/master/exercises/sw1/sw1-solution.zip)
+[Solution](https://github.com/ClaudioCorridore/expedia-javascript-for-beginners/raw/master/exercises/sw3/sw3-solution.zip)
