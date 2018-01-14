@@ -7,29 +7,29 @@ next: lesson2.html
 ---
 
 What is a **program**?
-> A program is a series of instructions that can be put into a computer in order to make it perform an operation
+> A program is a series of instructions which can be put into a computer in order to perform an operation
 
-Usually every program starts with one or more inputs and you need to execute some operation on top of them to achieve your goal.
+Usually every program starts with one or more inputs and you need to execute some operations on top of them to achieve your goal.
 
 For example, let's imagine to have a web form like this:
 
 <img src="assets/sum.png" alt="Sum form" style="width: 100%; max-width: 400px; margin: 0 auto; display: block;">
 
-Your _inputs_ are the two addends, and all you want to do with them is just to calc their sum.
+Your _inputs_ are the two addends, and the steps necessary to calc their sum are your program.
 
-Your program should do something like this:
+In this case your program should do something like this:
 
 ```
-READ the input form the page
+READ the inputs from the page
 SUM the inputs
 WRITE the sum result in the page
 ```
 
-These lines above are written in  _pseudo code_, more similar to plain english than to a real programming language.
+These lines above are written in _pseudo code_, more similar to plain english than to a real programming language.
 
-To be able to run this program in a web browser we need to translate it in _JavaScript_, but in order to do so we will need to introduce some fundamental concept first.
+To be able to run this program in a web browser we need to translate it in _JavaScript_, but in order to do so, we need to introduce some fundamental concept first.
 
-The first question we will answer is: "What kind of data can I use in JavaScript?"
+The first question we are going to answer is: _"What kind of data can I use in JavaScript?"_
 
 ## Types
 
@@ -147,7 +147,7 @@ This is equivalent to use the `var` keyword with the only difference that now it
 ## Operators
 An Operator is a symbol (such as +, −, ×, etc) that shows an operation (i.e. you want to do something with the values).
 
-In Javascript we have several types of operator but let's focus on the main ones for now
+In Javascript we have several types of operator but let's focus on the main ones for now.
 
 ### Comparison operators
 This operator will compare two values and it will return a _boolean_ (`true` or `false`) on whether the comparison is true.
