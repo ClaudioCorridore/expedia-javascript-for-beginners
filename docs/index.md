@@ -12,3 +12,4 @@ Welcome to the 1st Edition of "Javascript for Beginners" course. This course is 
 * [Lesson 8 - Final thoughts](lesson8.md)
 * Appendix
     * [A) The Web in a nutshell](appendixA.md)
+    * [B) Set-up a web dev environment](appendixB.md)
