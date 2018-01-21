@@ -6,7 +6,7 @@ prev: lesson1.html
 next: lesson3.html
 ---
 
-In the previous lesson we have seen the main _JavaScript_ types. In this lesson we are going to analyse in-depth the _Object_ type and its subtypes.
+In the previous lesson we saw the main _JavaScript_ types. In this lesson we are going to analyse in-depth the _Object_ type and its subtypes.
 
 ## Object
 
@@ -60,7 +60,7 @@ penguin['height'] // 100
 > An array is an ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value. [[MDN](https://developer.mozilla.org/en-US/docs/Glossary/Array)]
 
 In _JavaScript_ an Array is a special type of _Object_. The main purpose of an _Array_ is to store ordered data.
-Let's imagine you want to store some animals ordered by height. Using normal _Objects_ would be difficult to have a quick way to get the tallest.
+Let's imagine you want to store some animals ordered by height. Using normal _Objects_ would be difficult to have a quick way to get the tallest one.
 That's a perfect scenario to use an _Array_.
 
 ```js
@@ -118,13 +118,13 @@ animalsOrderedByHeight[3] = {
 }
 ```
 
-Now combining with what we learnt previously about retrieving an _Object_ property:
+`animalsOrderedByHeight[3]` represent an _Object_, so we can apply to it what we saw in the previous section:
 
 ```js
 animalsOrderedByHeight[3].name // 'Snail'
 ```
 
-Of course we have a lot of powerful tools to work with _Objects_ and _Arrays_ in _JavaScript_, but we first need to introduce the _Function_ concept.
+Of course we have a lot of powerful tools to work with _Objects_ and _Arrays_ in _JavaScript_, but we will need to introduce the _Function_ concept first.
 
 ## Function
 

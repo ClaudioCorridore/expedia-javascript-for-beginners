@@ -87,7 +87,7 @@ JavaScript ("JS" for short) is a full-fledged dynamic programming language that,
 
 > JavaScript is incredibly versatile. You can start small, with carousels, image galleries, fluctuating layouts, and responses to button clicks. With more experience you'll be able to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more! (MDN)
 
-These are the main blocks that compose the **World wide web**
+This is a simplified representation of what is required to request and render a _Web Page_, and in particular, of the client-side part of it.
 
 ---
 ### Further readings

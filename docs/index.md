@@ -11,4 +11,5 @@ Welcome to the 1st Edition of "Javascript for Beginners" course. This course is 
 * [Lesson 7 - Building a search widget (Part 3)](lesson7.md)
 * [Lesson 8 - Final thoughts](lesson8.md)
 * Appendix
-    * [A) The Web in a nutshell](appendixA.md)
+    * [A - The Web in a nutshell](appendixA.md)
+    * [B - How-to set-up a web app](appendixB.md)
